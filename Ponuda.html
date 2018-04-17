@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="građevinsko preduzeće SIBIR INVEST, Požarevac">
+<meta name="keywords" content="izgradnja poslovno-stambenih objekata, građevinski objekti, izgradnja stambenih objekata, izgradnja nestambenih objekata"> 
+
+<title>Ponuda</title>
+
+<!-- for FF, Chrome, Opera -->
+<link rel="icon" type="image/png" href="img/ico16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="img/ico32.png" sizes="32x32">
+
+<!-- for IE -->
+<link rel="icon" type="image/x-icon" href="img/ico32.png" >
+<link rel="shortcut icon" type="image/x-icon" href="img/ico32.png"/>
+
+
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+
+<!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+
+
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+
+</head>
+<body>
+
+<header class="header">	
+	<div class="greska">
+	Ekran Vašeg mobilnog telefona je male rezolucije, kako bi sajt prikladno bio prikazan, okrenite Vaš mobilni u "landscape" položaj (horizontalna orijentacija ekrana)</div>	
+
+</header>
+
+<nav class="main-nav-outer" id="test">
+	<div class="container">
+        <ul class="main-nav">
+        	<li><a href="index.html">Početna</a></li>
+            <li><a href="Delatnosti.html">Delatnosti</a></li>
+			<li><a href="Ponuda.html">Ponuda</a></li>
+			<li id="oui"><a href="Objekti.html">Objekti u izgradnji</a></li>
+            <li><a href="Galerija.html">Galerija</a></li>
+			<li><a href="Reference.html">Reference</a></li>
+            <li><a href="oNama.html">O nama</a></li>
+			<li><a href="contact.php">Kontakt</a></li>
+        </ul>               
+        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
+    </div>
+</nav>
+
+
+<div class="mainDiv">
+
+<div class="ct brB pdB3 animated bounceInLeft "><h2> Stambene jedinice: </h2></div>
+
+<div class="brB pdB3 pdT4 animated bounceInRight delay-02s" >
+<div class="ponuda">
+<script type="text/javascript" src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+<div id='gmap_canvas'>
+<div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div>
+<div><small><a href="http://www.proxysitereviews.com/">proxy sites</a></small></div>
+</div>
+</div>
+<div id="pon">
+<p>Površina: 72 m2</p>
+<p>Grad: Požarevac</p>
+<p>Adresa: Grgura Vujovića br.00</p>
+<p>Opis: Trosoban</p>
+<p>Sprat: IV</p>
+<p>Uknjižen: DA</p>
+<p>Useljiv: DA</p>
+<p>Garažno mesto: DA</p>
+</div>
+</div>
+
+<div class="brB pdB3 pdT4 animated bounceInLeft delay-04s">
+<div class="ponuda">
+<script type="text/javascript" src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+<div id='gmap_canvas2'>
+<div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div>
+<div><small><a href="http://www.proxysitereviews.com/">proxy sites</a></small></div>
+</div>
+
+</div>
+<div id="pon">
+<p>Površina: 92 m2</p>
+<p>Grad: Požarevac</p>
+<p>Adresa: Grgura Vujovića br.00</p>
+<p>Opis: Penthouse</p>
+<p>Sprat: Potkrovlje</p>
+<p>Uknjižen: DA</p>
+<p>Useljiv: DA</p>
+<p>Garažno mesto: DA</p>
+</div>
+</div>
+
+
+<div class="ct brB pdB4 pdT3 sp animated bounceInRight delay-06s">
+<h3> Pored gotovih, nudimo i stanove koji su u izgradnji </h3>
+<a href="Objekti.html"><h4>više o stanovima u izgradnji možete pogledati ovde</h4></a>
+
+</div>
+
+
+
+
+<div class="clear" style="padding-bottom:50px;"></div>
+</div>
+
+<footer class="footer">
+        <span class="copyright">sibir-invest.rs - Sva prava zadržana |  Designed by custom-design.org</span>
+</footer>
+
+
+<script type='text/javascript'>function init_map(){
+var myOptions = {zoom:10,center:new google.maps.LatLng(44.620173,21.183708),mapTypeId: google.maps.MapTypeId.ROADMAP};
+var myOptions2 = {zoom:15,center:new google.maps.LatLng(44.620173,21.183708),mapTypeId: google.maps.MapTypeId.ROADMAP};
+
+map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+map2 = new google.maps.Map(document.getElementById('gmap_canvas2'), myOptions2);
+
+marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.620173,21.183708)});
+marker2 = new google.maps.Marker({map: map2,position: new google.maps.LatLng(44.620173,21.183708)});
+
+infowindow = new google.maps.InfoWindow({content:'<strong>sibir-invest.rs</strong><br>Sindjeliceva 23 lokal br.5,Požarevac,Srbija<br>'});
+infowindow2 = new google.maps.InfoWindow2({content:'<strong>sibir-invest.rs</strong><br>Sindjeliceva 23 lokal br.5,Požarevac,Srbija<br>'})
+
+google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});
+google.maps.event.addListener(marker2, 'click', function(){infowindow2.open(map2,marker2);});
+
+infowindow.open(map,marker);
+infowindow2.open(map2,marker2);}
+
+google.maps.event.addDomListener(window, 'load', init_map);
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false    
+            
+        });
+        
+    });
+</script>
+
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	
+</script>
+
+
+</body>
+</html>
+			
